@@ -1,0 +1,48 @@
+*{
+    margin:0;padding: 0;
+}
+
+body{
+    font-family: Aboreto;
+    font-size: 15px;
+    background-image: radial-gradient(circle at 40.72% -2.61%, #a5b3a1 0, #8d9289 25%, #6e6d6f 50%, #4f4a57 75%, #333044 100%);
+}
+
+.menu{
+    list-style:none;
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+    background-image: radial-gradient(circle at 40.72% -2.61%, #a5b3a1 0, #8d9289 25%, #6e6d6f 50%, #4f4a57 75%, #333044 100%);
+}
+
+.menu li{
+    position: relative;
+    float: left;
+    border-right:1px solid #c0c0c0 ;
+}
+
+.menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-image: linear-gradient(to right, gray, white, black);
+    display: none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display: block;
+}
+
+.menu li ul li{
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px;
+}
+    
