@@ -1,0 +1,55 @@
+body{
+    background-image: url(../img/background-159244.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid rgb(0, 102, 255);
+    font-family: cursive;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h2{
+    background-color: rgba(50, 50, 50, 0.3);
+    font-weight: bold;
+    color: black;
+    font-stretch: expanded;
+}
+
+input.txt{
+    background-color: rgba(50, 50, 50, 0.2);
+    border: 2px solid black;
+    padding: 7px 40px;
+}
+
+.btn-cad{
+    color: rgb(7, 248, 7);
+    font-size: 18px;
+    background-color: rgba(0, 255, 34,0.2);
+    border: 2px solid black;
+    border-radius: 25%;
+    padding: 8px 30 30px;
+    cursor: pointer;
+
+}
+
+.btn-res{
+    color: red;
+    font-size: 18px;
+    background-color: rgba(248, 0, 0, 0.2);
+    border: 2px solid black;
+    border-radius: 25%;
+    padding: 8px 30 30px;
+    cursor: pointer;
+
+}
+
+label{
+    font-size: 16px;
+}
+
+fieldset{
+    border: 3px solid black;
+}

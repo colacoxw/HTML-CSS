@@ -1,0 +1,104 @@
+</DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Revisando Seletores Simples</title>
+        <style>
+            /* Seletor via tag */
+
+            h2{
+                color: blue;
+                font-family: Impact;
+                font-weight: bold;
+                border: 2px solid olivedrab; 
+            }
+
+            /*Seletor por Classe*/
+            .classe{
+                color: yellowgreen;
+                font-family: cursive;
+                font-style: italic;
+                border: 2px solid blue;
+            }
+
+            /*Seletor utilizando tab e Classe*/
+            p.classe{
+                color: red;
+                font-family: fantasy;
+                font-weight: bolder;
+                border: 2px solid rebeccapurple
+
+            }
+
+            /*Seletor utilizando Id de uso unico ex: id="p1"*/
+            #p1{
+                color: aqua;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: oblique;
+                border: 2px dashed mediumvioletred;
+            }
+
+            
+
+        </style>
+    </head>
+
+    <body>
+        <!--Neste exemplo foi utilizado um seletor CSS atraves da TAG-->
+        <h2>Exemplo 1 de CSS</h2>
+        <h2>Exemplo 2 de CSS</h2>
+
+
+        <br><br>
+
+        <!--Exemplo de seletor via Tag e Classe-->
+        <p class="classe">Exemeplo 2 de CSS</p>
+        <p class="classe">Exemeplo 2 de CSS</p>
+
+        <br><br>
+
+        <!--Exemplo de seletor usanco classe-->
+        <table class="classe">
+
+            <tr>
+                <td>Exemplo 3</td>
+            </tr>
+
+            <tr>
+                <td>Exemplo 3</td>
+            </tr>
+
+            <tr>
+                <td>Exemplo 3</td>
+            </tr>
+
+        </table>
+
+        <br><br>
+
+        <!--Este exemplo utiliza-se do seletor via classe ex ; class="classe"-->
+        <ul class="classe">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+
+        <br><br>
+
+        <!--utilizando Id de uso unico ex: id="p1"-->
+        <ol id="p1">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>    
+        
+        
+
+    </body>
+
+
+</html>

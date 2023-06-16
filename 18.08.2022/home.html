@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Seletores Complexos</title>
+
+        <style>
+            /*Seletor descendente de Seletor*/
+            ul li{
+                color: green;
+            }
+
+            #p1 td{
+                color: violet;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            /*Seletor descendentes Filhos*/
+            ol > li {
+                color: red;
+                font-size: 13px ;
+            }
+
+            ol > a{
+                font-style: oblique;
+                font-stretch: expanded;
+                opacity: inherit;
+                font-size: 16px;
+            }
+
+            /*Seletor descendente Imediato*/
+            h1+p{
+                color: sienna;
+                font: 50px Arial bold;
+            }
+
+            /*Seletores Multiplos*/
+            h1, h2,h3,h4,h5,h6{
+                font-family: fantasy;
+                font-weight: bolder;
+                font-style: initial;
+                color: royalblue;
+                border: solid blue 2px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <!--Seletor descendente Imediato-->
+        <h1>TESTE CSS SELETORES COMPLEXOS</h1>
+        <p>TESTE CSS SELETORES COMPLEXOS</p>
+
+        <br>
+
+        <!--Seletores Multiplos-->
+        <h2>TESTE CSS SELETORES COMPLEXOS</h2>
+        <h3>TESTE CSS SELETORES COMPLEXOS</h3>
+        <h4>TESTE CSS SELETORES COMPLEXOS</h4>
+        <h5>TESTE CSS SELETORES COMPLEXOS</h5>
+        <h6>TESTE CSS SELETORES COMPLEXOS</h6>
+
+        <!--Seletor descendentes Filhos-->
+        <ol>
+            <a><li>Item a</li></a>
+            <li>Item b</li>
+            <li>Item c</li>
+            <li>Item d</li>
+            
+        </ol>
+
+        <br>
+
+        <!--Seletor descendente de Seletor-->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            
+        </ul>
+
+        <table id="p1">
+            <tr>
+                <td>
+                    Linha 1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Linha 2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Linha 3
+                </td>
+            </tr>
+        </table>
+    </body>
+
+
+
+</html>
